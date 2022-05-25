@@ -27,8 +27,8 @@ Potential Mockup for future designs
 ### Screenshots
 
 
-<br><img src="./Assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
-<br><img src="./Assets/images/screen2.png" alt="screenshot of templates" width="350"/>
-<br><img src="./Assets/images/screen3.png" alt="screenshot of menus" width="350"/>
-<br><img src="./Assets/images/screen4.png" alt="screenshot of about us" width="350"/>
-<br><img src="./Assets/images/screen5.png" alt="screenshot of contact page" width="350"/>
+<br><img src="./assets/images/screen1.png" alt="screenshot of starting page" width="350"/>
+<br><img src="./assets/images/screen2.png" alt="screenshot of templates" width="350"/>
+<br><img src="./assets/images/screen3.png" alt="screenshot of menus" width="350"/>
+<br><img src="./assets/images/screen4.png" alt="screenshot of about us" width="350"/>
+<br><img src="./assets/images/screen5.png" alt="screenshot of contact page" width="350"/>
