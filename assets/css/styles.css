@@ -1,0 +1,990 @@
+* {
+    margin: 555;
+    padding: 555;
+    box-sizing: border-box;
+}
+
+:root {
+    /*main colors */
+    --primary-color: #60A699;
+    --secondary-color: #BF0413;
+    --tertiary-color: #F2E3D5;
+}
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #285950;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+a {
+    color: #024e76;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover {
+    /* background: #0E5259; */
+    color: #D5F2EA;
+    border-radius: 15px;
+    text-shadow: none;
+    transition: .5s ease-in;
+}
+
+
+/* start apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #D5F2EA;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/spaghetti-with-fresh-ingredients.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+
+}
+
+header h1 {
+    font-weight: bold;
+    display: inline-flex;
+    margin: 0;
+    font-size: 36px;
+    color: #F2E3D5;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+header a {
+    text-decoration: none;
+    color: #F2E3D5;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+/* button styling */
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+
+header nav ul li a:hover {
+    background: #0E5259;
+    color: #D5F2EA;
+    border-radius: 15px;
+    text-shadow: none;
+    /*    transition: .5s ease-in;*/
+}
+
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/spaghetti-with-fresh-ingredients.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+
+}
+
+/* Hero Style End */
+
+/* hero-cta start */
+.hero-cta {
+    width: 35%;
+    text-align: center;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #F2E3D5;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-cta p {
+    color: #F2E3D5;
+}
+
+/* hero-cta end */
+
+/*home page styling*/
+
+
+
+
+.welcome-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.welcome-body>* {
+    flex: 1;
+    margin: 150px;
+}
+
+.column1,
+.column2,
+.column3 {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 30px 0 0 60px;
+}
+
+.column3 {
+    margin-right: 0%;
+}
+
+
+
+.article {
+    margin: 10px;
+    margin-bottom: 1em;
+    background-color: #B4D9CB;
+}
+
+
+.welcome-body img {
+
+    height: auto;
+}
+
+.column-title {
+    color: #285950;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.column-text {
+    color: #285950;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+
+/*INTRO STYLES Start*/
+
+.intro-text {
+    width: 85%;
+    height: auto;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #D5F2EA;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.intro-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.intro-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.intro-img img {
+    max-width: 100%;
+}
+
+.intro-text {
+    flex: 12;
+}
+
+.intro-text p {
+    color: #328C83;
+    font-size: 18px;
+}
+
+/*About Us Styling*/
+
+
+.about-text {
+    width: 85%;
+    height: auto;
+}
+
+.about p {
+    line-height: 1.7;
+    color: #D5F2EA;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.about-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-img {
+    flex: 1 12%;
+    margin-right: 20px;
+
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.about-food-img {
+    width: 50%;
+    align-items: center;
+    /* display: flex; */
+    flex: 1 12%;
+}
+
+.about-food-movie {
+    width: 95%;
+    height: 50vh;
+    align-items: center;
+    flex: 1 12%;
+}
+
+.about-text {
+    flex: 12;
+}
+
+.about-text p {
+    color: #328C83;
+    font-size: 18px;
+}
+
+
+
+
+
+/* CONTACT STYLES START */
+#reach-out {
+    margin-top: 5px;
+    background: #75BFB2;
+}
+
+.contact-form {
+    padding-right: 10%;
+}
+
+.contact-form button:hover {
+    color: #F2E3D5;
+    background: #39a6b2;
+}
+
+.contact h2 {
+    color: #F2E3D5;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info iframe {
+
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+
+}
+
+.contact-info h3 {
+    color: #F2E3D5;
+    font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #F2E3D5;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+
+
+
+}
+
+.contact-info a {
+    color: #F2E3D5;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+/* MENU Styling */
+#order {
+    margin-top: 5px;
+    background: #75BFB2;
+}
+
+#menu-nav a {
+    text-decoration: none;
+    color: #285950;
+    ;
+}
+
+#menu-nav {
+    width: 85%;
+    margin: 7px 100px;
+    margin-bottom: 100px;
+}
+
+#menu-nav ul{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+
+#menu-nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 15px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+
+#menu-nav ul li a:hover {
+    background: #0E5259;
+    color: #D5F2EA;
+    border-radius: 15px;
+    text-shadow: none;
+    transition: .5s ease-in;
+}
+
+
+#food-list {
+    width: 100%;
+    height: auto;
+    flex: 12;
+    margin: 7px 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.menu-text {
+    width: 85%;
+    height: auto;
+    flex: 12;
+}
+
+.menu-header p {
+    line-height: 1.7;
+    color: #D5F2EA;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.menu-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.menu-text p {
+    color: #328C83;
+    font-size: 18px;
+}
+
+
+
+/*menu grid styling */
+
+.angry-grid {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    gap: 0px;
+    height: 100%;
+
+}
+
+#item-0 {
+    font-size: 1.5em;
+    background-color: #B4D9CB;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    margin: 15px;
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+}
+
+#item-1 {
+    padding: 2%;
+    background-color: #B4D9CB;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin: 15px;
+    grid-row-end: 3;
+    grid-column-end: 5;
+
+}
+
+#item-2 {
+    font-size: 1.5em;
+    background-color: #B4D9CB;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    margin: 15px;
+    grid-row-end: 5;
+    grid-column-end: 2;
+
+}
+
+#item-3 {
+    background-color: #B4D9CB;
+    margin: 15px;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    padding: 2%;
+    grid-row-end: 5;
+    grid-column-end: 5;
+
+}
+
+#item-4 {
+    margin: 15px;
+    font-size: 1.5em;
+    background-color: #B4D9CB;
+    grid-row-start: 5;
+    grid-column-start: 1;
+
+    grid-row-end: 7;
+    grid-column-end: 2;
+
+}
+
+#item-5 {
+    margin: 15px;
+    background-color: #B4D9CB;
+    grid-row-start: 5;
+    grid-column-start: 2;
+    padding: 2%;
+    grid-row-end: 7;
+    grid-column-end: 5;
+
+}
+
+#food-list,
+#order>* {
+    flex: 1;
+}
+
+#menu-nav>* {
+    flex: 2;
+}
+
+
+
+.appetizers-text {
+    padding-left: 5%;
+}
+
+.entrees-text,
+.desserts-text {
+    padding-left: 15%
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked~.checkmark {
+    background-color: #285950;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*Checkout Styling */
+.payment-form button:hover {
+    color: #F2E3D5;
+    background: #39a6b2;
+}
+
+.payment-form button {
+    width: 100%;
+    border: none;
+    background: #F2E3D5;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+
+
+
+}
+
+.payment-form {
+    padding-right: 10%;
+}
+
+.payment-form button:hover {
+    color: #F2E3D5;
+    background: #39a6b2;
+}
+
+.checkout h2 {
+    color: #F2E3D5;
+}
+
+.checkout-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.checkout-info>* {
+    flex: 1;
+    margin: 15px;
+}
+
+
+.checkout-info div {
+    width: 120%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+
+
+}
+
+.payment-form div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    /* margin-top: 10%; */
+}
+
+.checkout-info h3 {
+    color: #F2E3D5;
+    font-size: 32px;
+}
+
+.checkout-info p {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+#order>div.checkout-info>div:nth-child(3)>div {
+    margin-top: 10%;
+}
+
+#credit-card {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.payment-form input,
+.payment-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+.payment-form input:focus,
+.payment-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.payment-form button {
+    width: 100%;
+    border: none;
+    background: #F2E3D5;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+
+
+
+}
+
+.checkout-info a {
+    color: #F2E3D5;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+
+
+/*Feedback Section*/
+
+
+#feedback {
+    text-align: center;
+}
+
+
+.feedback-text {
+    width: 85%;
+    height: auto;
+    flex: 12;
+}
+
+.feedback-header p {
+    line-height: 1.7;
+    color: #D5F2EA;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.feedback-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.feedback-text p {
+    color: #328C83;
+    font-size: 18px;
+}
+
+#feedback button {
+    width: 50%;
+    border: none;
+    background: #F2E3D5;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+
+}
+
+
+
+#feedback textarea {
+    border: 1px solid #024e76;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+
+
+#feedback textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+
+
+
+
+
+/*Checkboxes and Labels */
+
+.checkbox-wrapper input,
+.radio-wrapper input {
+    opacity: 0;
+}
+
+.checkbox-wrapper label,
+.radio-wrapper label {
+    position: relative;
+    left: 10px;
+    margin: 10px;
+    line-height: 1.6;
+}
+
+.checkbox-wrapper label::before,
+.radio-wrapper label::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #285950;
+    position: absolute;
+    top: -4px;
+    left: -30px;
+}
+
+.radio-wrapper label::before {
+    border-radius: 50%;
+}
+
+.radio-wrapper label::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #024e76;
+    position: absolute;
+    left: -29px;
+    top: -3px;
+    background-image: radial-gradient(circle, #39a6b2, #024e76);
+}
+
+.checkbox-wrapper label::after {
+    content: "";
+    height: 6px;
+    width: 14px;
+    border-left: 2px solid #024e76;
+    border-bottom: 2px solid #024e76;
+    position: absolute;
+    left: -26px;
+    top: 1px;
+    transform: rotate(-58deg);
+}
+
+.checkbox-wrapper input+label::after,
+.radio-wrapper input+label::after {
+    content: none;
+}
+
+.checkbox-wrapper input:checked+label::after,
+.radio-wrapper input:checked+label::after {
+    content: "";
+}
+
+/* REACH OUT STYLES END */
+
+
+
+
+/*end "Contact me" styles*/
+
+
+/*Extra styling*/
+.flex-row {
+    display: flex;
+}
+
+.section-title {
+    padding-top: 20px;
+    font-size: 48px;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+
+
+/*footer styling */
+
+
+footer {
+    font-weight: bold;
+    margin-top: 5px;
+    justify-content: center;
+    background-color: #B4D9CB;
+    line-height: 1.5;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+
+}
